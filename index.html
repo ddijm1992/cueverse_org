@@ -1,49 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Cueverse Industries – The digital empire of cue sports: data, rideshare, media, AI, and impact." />
-  <title>Cueverse – The Cue Sports Empire</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <title>Cueverse Industries – The Cue Sports Empire</title>
+  <meta name="description" content="Cueverse is the global command center for cue sports innovation – analytics, AI, rideshare, betting, media, and impact." />
+  <meta name="keywords" content="Cue Sports, Pool, Billiards, Betting, AI, Rideshare, Broadcasting, Sports Data, APA, BCA" />
+  <meta name="author" content="Cueverse Industries" />
+  <meta property="og:title" content="Cueverse Industries – The Cue Sports Empire" />
+  <meta property="og:description" content="AI-powered sports empire for analytics, transportation, betting, and media in cue sports." />
+  <meta property="og:image" content="https://cueverse.org/og-image.jpg" />
+  <meta property="og:url" content="https://cueverse.org" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <div class="hero">
-      <h1>Cueverse</h1>
-      <p class="tagline">The Digital Empire of Cue Sports</p>
-      <a href="#brands" class="cta-button">Explore the Empire</a>
-    </div>
+<body class="bg-slate-950 text-white font-sans antialiased">
+  <header class="bg-slate-900 border-b border-slate-800 px-6 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-green-400">Cueverse</h1>
+    <nav class="space-x-4 text-sm">
+      <a href="#brands" class="hover:text-green-300">Divisions</a>
+      <a href="#ai" class="hover:text-green-300">Live Sync</a>
+      <a href="#contact" class="hover:text-green-300">Contact</a>
+    </nav>
   </header>
 
-  <section id="brands">
-    <h2>Our Divisions</h2>
-    <div class="grid">
-      <div class="card"><h3>CueRide</h3><p>Sober rideshare for tournaments & recovery.</p></div>
-      <div class="card"><h3>Cuelytics</h3><p>Player analytics, stat APIs, and match data.</p></div>
-      <div class="card"><h3>QSN</h3><p>Cue sports media, commentary, and livestreams.</p></div>
-      <div class="card"><h3>Off The Rails</h3><p>AI-powered betting platform built for pool.</p></div>
-      <div class="card"><h3>CueRide Cares</h3><p>Nonprofit division for grants & social impact.</p></div>
-      <div class="card"><h3>Monitor</h3><p>Live AI loop status & mission health metrics.</p></div>
-    </div>
-  </section>
+  <main>
+    <section class="text-center py-20 px-6">
+      <h2 class="text-4xl font-bold mb-4 text-white">The Digital Empire of Cue Sports</h2>
+      <p class="text-lg max-w-2xl mx-auto text-slate-400">
+        Cueverse is the nerve center of cue sports innovation — combining AI, analytics, media, rideshare, and betting into one seamless ecosystem.
+      </p>
+      <a href="#brands" class="mt-6 inline-block bg-green-400 text-slate-950 font-semibold py-3 px-6 rounded hover:bg-green-300">Explore the Empire</a>
+    </section>
 
-  <section id="ai-overlay">
-    <h2>📊 Live AI System Sync</h2>
-    <div id="ai-feed"></div>
-    <script src="https://cueverse-monitor.vercel.app/loop_feed.js"></script>
-  </section>
+    <section id="brands" class="bg-slate-900 py-16 px-6">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div class="bg-slate-800 p-6 rounded">
+          <h3 class="text-xl font-semibold text-green-400">CueRide</h3>
+          <p class="text-slate-300">Sober rideshare system for tournaments and recovery.</p>
+        </div>
+        <div class="bg-slate-800 p-6 rounded">
+          <h3 class="text-xl font-semibold text-green-400">Cuelytics</h3>
+          <p class="text-slate-300">Cue sports data, player stats, and predictive APIs.</p>
+        </div>
+        <div class="bg-slate-800 p-6 rounded">
+          <h3 class="text-xl font-semibold text-green-400">QSN</h3>
+          <p class="text-slate-300">Broadcasting & content for league matches and events.</p>
+        </div>
+        <div class="bg-slate-800 p-6 rounded">
+          <h3 class="text-xl font-semibold text-green-400">Off The Rails</h3>
+          <p class="text-slate-300">Smart betting powered by proprietary cue data.</p>
+        </div>
+        <div class="bg-slate-800 p-6 rounded">
+          <h3 class="text-xl font-semibold text-green-400">CueRide Cares</h3>
+          <p class="text-slate-300">Nonprofit foundation offering grants and sponsorship.</p>
+        </div>
+        <div class="bg-slate-800 p-6 rounded">
+          <h3 class="text-xl font-semibold text-green-400">Cueverse Monitor</h3>
+          <p class="text-slate-300">Live system status and AI performance dashboard.</p>
+        </div>
+      </div>
+    </section>
 
-  <footer>
-    <p>© 2025 Cueverse Industries. All rights reserved.</p>
-    <nav>
-      <a href="https://cuerideapp.com">CueRide</a>
-      <a href="https://cuelytics.tech">Cuelytics</a>
-      <a href="https://qsntv.live">QSN</a>
-      <a href="https://offtherails.bet">Off The Rails</a>
-      <a href="https://cueridecares.org">CueRide Cares</a>
-    </nav>
+    <section id="ai" class="py-16 px-6">
+      <h2 class="text-2xl font-bold mb-6 text-center">📊 Live AI Loop Sync</h2>
+      <div id="ai-feed" class="max-w-2xl mx-auto"></div>
+      <script src="https://cueverse-monitor.vercel.app/loop_feed.js"></script>
+    </section>
+
+    <section id="contact" class="bg-slate-900 py-16 px-6">
+      <h2 class="text-2xl font-bold mb-4 text-center">Contact Us</h2>
+      <form action="https://formspree.io/f/xgebvljk" method="POST" class="max-w-lg mx-auto space-y-4">
+        <input type="email" name="email" placeholder="Your email" required class="w-full p-3 rounded bg-slate-800 text-white border border-slate-700" />
+        <textarea name="message" placeholder="Your message" required class="w-full p-3 rounded bg-slate-800 text-white border border-slate-700 h-32"></textarea>
+        <button type="submit" class="bg-green-400 text-slate-950 font-semibold py-2 px-4 rounded hover:bg-green-300">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="bg-black py-6 text-center text-sm text-slate-500">
+    © 2025 Cueverse Industries. All rights reserved.
   </footer>
 </body>
 </html>
