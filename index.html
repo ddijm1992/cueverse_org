@@ -3,41 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Cueverse Industries – Empowering the future of cue sports through AI, data, media, transportation, and impact ventures.">
-  <title>Cueverse Industries</title>
+  <meta name="description" content="Cueverse Industries – The digital empire of cue sports: data, rideshare, media, AI, and impact." />
+  <title>Cueverse – The Cue Sports Empire</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Cueverse Industries</h1>
-    <p>Powering the future of cue sports through AI, media, data, and community impact.</p>
+    <div class="hero">
+      <h1>Cueverse</h1>
+      <p class="tagline">The Digital Empire of Cue Sports</p>
+      <a href="#brands" class="cta-button">Explore the Empire</a>
+    </div>
   </header>
-  <main>
-    <section>
-      <h2>Our Divisions</h2>
-      <ul>
-        <li><strong>CueRide:</strong> Sober ride systems for tournaments & communities</li>
-        <li><strong>Cuelytics:</strong> Player analytics + data infrastructure</li>
-        <li><strong>QSN:</strong> Broadcast & cue sports streaming</li>
-        <li><strong>Off The Rails:</strong> Cue-sports betting platform</li>
-        <li><strong>CueRide Cares Foundation:</strong> Grants & nonprofit outreach</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Contact Us</h2>
-      <form action="https://formspree.io/f/xgebvljk" method="POST">
-        <label>Your email: <input type="email" name="email" required></label><br/>
-        <label>Message: <textarea name="message" required></textarea></label><br/>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main>
+
+  <section id="brands">
+    <h2>Our Divisions</h2>
+    <div class="grid">
+      <div class="card"><h3>CueRide</h3><p>Sober rideshare for tournaments & recovery.</p></div>
+      <div class="card"><h3>Cuelytics</h3><p>Player analytics, stat APIs, and match data.</p></div>
+      <div class="card"><h3>QSN</h3><p>Cue sports media, commentary, and livestreams.</p></div>
+      <div class="card"><h3>Off The Rails</h3><p>AI-powered betting platform built for pool.</p></div>
+      <div class="card"><h3>CueRide Cares</h3><p>Nonprofit division for grants & social impact.</p></div>
+      <div class="card"><h3>Monitor</h3><p>Live AI loop status & mission health metrics.</p></div>
+    </div>
+  </section>
+
+  <section id="ai-overlay">
+    <h2>📊 Live AI System Sync</h2>
+    <div id="ai-feed"></div>
+    <script src="https://cueverse-monitor.vercel.app/loop_feed.js"></script>
+  </section>
+
   <footer>
     <p>© 2025 Cueverse Industries. All rights reserved.</p>
+    <nav>
+      <a href="https://cuerideapp.com">CueRide</a>
+      <a href="https://cuelytics.tech">Cuelytics</a>
+      <a href="https://qsntv.live">QSN</a>
+      <a href="https://offtherails.bet">Off The Rails</a>
+      <a href="https://cueridecares.org">CueRide Cares</a>
+    </nav>
   </footer>
-  <script src="cueverse_org_metrics.js"></script>
-  <script src="loop_feed.js"></script>
-  <script src="https://cueversemonitor.vercel.app/loop_feed.js"></script>
-  <script src="forecast_overlay.js"></script>
 </body>
 </html>
